@@ -1,0 +1,148 @@
+.clearfix:before,
+.clearfix:after{
+  display: block;
+  content: "";
+  clear: both;
+}
+img:hover{
+  opacity: 0.7;
+  transition: 0.3s;
+}
+.haikei{
+  background: #f2f2f2;
+}
+.bolt-tag{
+  background: #fff;
+  padding: 15px;
+}
+.inner{
+  width: 1100px;
+  margin:0 auto;
+  text-align: center;
+}
+.fa-bolt{
+  float: left;
+}
+.contact{
+  float: right;
+  font-size: 12px;
+  padding:14px 12px;
+  background: #74cfae;
+  color:#fff;
+}
+h1{
+  padding-top:250px;
+  padding-bottom: 20px;
+  font-size: 90px;
+  font-weight: 700;
+  color: #74cfae;
+}
+.sab-title{
+  padding-bottom: 250px;
+  font-size: 30px;
+  color: #c0c0c0;
+}
+.iphone-background{
+  background: #74cfae;
+}
+.iphone-content{
+  font-size: 0;
+  color: #fff;
+  text-align: center;
+  padding-top:50px; 
+
+}
+.iphone{
+  float: left;
+  width: 50%;
+}
+.iphone-title{
+  float: right;
+  width: 50%;
+}
+h2{
+  padding-bottom: 35px;
+  font-size: 24px;
+}
+.iphone-text{
+  font-size: 20px;
+}
+h3{
+  font-size: 24px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.robo-content-top{
+  padding-bottom: 80px;
+}
+.robo-img{
+  float: left;
+  padding-left: 100px;
+}
+.robo-img:first-child{
+  padding-left: 0;
+}
+.robo-content-back{
+  padding-bottom: 90px;
+}
+.robo-content-text{
+  padding-bottom: 70px; 
+}
+.robo-text{
+  display: inline-block;
+  padding-right:90px;
+}
+.robo-e-mail{
+  display: inline-block;
+  vertical-align: top;
+  font-size: 12px;
+  padding: 14px 20px;
+  background: #74cfae;
+  color: #fff;
+}
+.skil-backdround{
+  background: #4e4e4e;
+}
+h4{
+  color: #fff;
+  padding: 70px;
+}
+.skil-sheet{
+  font-size: 16px;
+  color: #fff;
+  padding-bottom: 100px;
+}
+.skil{
+  display: inline-block;
+  padding-left: 180px;
+}
+.skil:first-child{
+  padding-left: 0;
+}
+.inquiry{
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.sns{
+  display: inline-block;
+  color: #74cfae;
+  cursor: pointer;
+}
+.icon{
+  width: 185px;
+  transition: 0.3s;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.sns:hover .icon{
+  background: #fff;
+}
+footer{
+  background: #74cfae;
+}
+.end{
+  text-align: right;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  color: #fff;
+}
