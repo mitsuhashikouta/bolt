@@ -7,19 +7,29 @@ body{
   content: "";
   clear: both;
 }
-img{
+.img{
   opacity: 0.7;
-  }
-img:hover{
+  transition: 0.3s;
+}
+.img:hover{
   opacity: 1;
   transition: 0.3s;
 }
-.haikei{
-  background: #f2f2f2;
+.btn{
+  color: #fff;
+  transition: 0.3s;
+}
+.btn:hover{
+  color:#74cfae; 
+  transition: 0.3s;
+}
+.bolt-header{
+  width: 100%;
+  background: #fff;
+  position: fixed;
 }
 .bolt-tag{
-  background: #fff;
-  padding: 15px;
+  padding:15px 0;
 }
 .inner{
   width: 1100px;
@@ -34,21 +44,25 @@ img:hover{
   font-size: 12px;
   padding:14px 12px;
   background: #74cfae;
-  color:#fff;
 }
-h1{
+.bolt-back{
+  background: #f2f2f2;
+}
+.bolt-title{
   padding-top:250px;
-  padding-bottom: 20px;
+  padding-bottom: 250px;
+}
+.Bolt-Theme{
+  margin-bottom: 20px;
   font-size: 90px;
   font-weight: 700;
   color: #74cfae;
 }
 .sab-title{
-  padding-bottom: 250px;
   font-size: 30px;
   color: #c0c0c0;
 }
-.iphone-background{
+.green-background{
   background: #74cfae;
 }
 .iphone-content{
@@ -56,7 +70,6 @@ h1{
   color: #fff;
   text-align: center;
   padding-top:50px; 
-
 }
 .iphone{
   float: left;
@@ -65,65 +78,73 @@ h1{
 .iphone-title{
   float: right;
   width: 50%;
-}
-h2{
-  padding-bottom: 35px;
+  margin-bottom: 35px;
   font-size: 24px;
 }
 .iphone-text{
   font-size: 20px;
+  text-align: justify;
+  text-align-last: center;
 }
-h3{
-  font-size: 24px;
+.robo-content{
   padding-top: 60px;
-  padding-bottom: 40px;
-}
-.robo-content-top{
-  padding-bottom: 80px;
-}
-.robo-img{
-  float: left;
-  padding-left: 100px;
-}
-.robo-img:first-child{
-  padding-left: 0;
-}
-.robo-content-back{
-  padding-bottom: 90px;
-}
-.robo-content-text{
   padding-bottom: 70px; 
+}
+.OUR-LATEST-WORK{
+  margin-bottom: 40px;
+  font-size: 24px;
+}
+.robo{
+  float: left;
+  margin-left: 100px;
+  margin-bottom: 80px;
+}
+.robo:first-child{
+  margin-left: 0;
+}
+.robo:nth-last-child(3){
+  margin-left: 0;
+}
+.robo-bottom{
+  margin-bottom: 90px;
 }
 .robo-text{
   display: inline-block;
-  padding-right:90px;
+  text-align: justify;
+  width: 50%;
+  line-height: 23px;
 }
 .robo-e-mail{
   display: inline-block;
-  vertical-align: top;
+  margin-left: 90px;
   font-size: 12px;
+  vertical-align: top;
   padding: 14px 20px;
   background: #74cfae;
-  color: #fff;
 }
-.skil-backdround{
+.bk-backdround{
   background: #4e4e4e;
 }
-h4{
-  color: #fff;
-  padding: 70px;
-}
 .skil-sheet{
-  font-size: 16px;
-  color: #fff;
+  padding-top: 70px;
   padding-bottom: 100px;
 }
+.OUR-SKILLS{
+  font-size: 24px;
+  color: #fff;
+  padding-bottom: 70px;
+}
 .skil{
-  display: inline-block;
-  padding-left: 180px;
+  float: left;
+  margin-left: 180px;
 }
 .skil:first-child{
-  padding-left: 0;
+  margin-left: 0;
+}
+.skil-name{
+  color: #fff;
+  font-size: 16px;
+  margin-top: 20px;
 }
 .inquiry{
   padding-top: 200px;
@@ -133,6 +154,7 @@ h4{
   display: inline-block;
   color: #74cfae;
   cursor: pointer;
+  transition: 0.3s;
 }
 .icon{
   width: 185px;
@@ -142,9 +164,6 @@ h4{
 }
 .sns:hover .icon{
   background: #fff;
-}
-footer{
-  background: #74cfae;
 }
 .end{
   text-align: right;
